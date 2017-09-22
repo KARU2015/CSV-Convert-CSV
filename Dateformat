@@ -12,12 +12,18 @@ Console.WriteLine (v);
 
 string dateTime2 = "2017-09-14 09:45";
 DateTime dt2 = Convert.ToDateTime(dateTime2);
-Console.WriteLine("Year: {0}, Month: {1}, Day: {2}", dt2.Year, dt2.Month, dt2.Day, dt2.Hour  ,dt2.Minute);
+Console.WriteLine("{0}.{1}.{2};1;L;;", dt2.Day, dt2.Month, dt2.Year);
 Console.WriteLine ("Now= " + dt2 );
 Console.WriteLine (v);
-IFormatProvider culture = new System.Globalization.CultureInfo("fr-FR", true);  
-DateTime dt3 = DateTime.Parse(dateTime2, culture, System.Globalization.DateTimeStyles.AssumeLocal);  
 
-Console.WriteLine("Year: {0}, Month: {1}, Day: {2}", dt3.Year, dt3.Month, dt3.Day, dt3.Hour  ,dt3.Minute);
-Console.WriteLine ("Now= " + dt2 );
-Console.WriteLine (v);
+
+// 
+//
+Now= 9/22/2017 10:02:06 PM
+UTC= 9/22/2017 10:02:06 PM
+Today= 9/22/2017 12:00:00 AM
+Now= 1/8/2008 2:50:50 PM
+#####################################
+14.9.2017;1;L;;
+Now= 9/14/2017 9:45:00 AM
+#####################################
