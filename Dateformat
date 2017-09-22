@@ -1,0 +1,23 @@
+DateTime y = DateTime.Now;
+DateTime x = DateTime.UtcNow;
+DateTime c = DateTime.Today;
+String v = "#####################################";
+Console.WriteLine ("Now= " + y + "\n"+"UTC= " + x + "\n" +"Today= " + c);
+
+string dateTime = "01/08/2008 14:50:50.42";
+DateTime dt = Convert.ToDateTime(dateTime);
+Console.WriteLine ("Now= " + dt );
+Console.WriteLine (v);
+
+
+string dateTime2 = "2017-09-14 09:45";
+DateTime dt2 = Convert.ToDateTime(dateTime2);
+Console.WriteLine("Year: {0}, Month: {1}, Day: {2}", dt2.Year, dt2.Month, dt2.Day, dt2.Hour  ,dt2.Minute);
+Console.WriteLine ("Now= " + dt2 );
+Console.WriteLine (v);
+IFormatProvider culture = new System.Globalization.CultureInfo("fr-FR", true);  
+DateTime dt3 = DateTime.Parse(dateTime2, culture, System.Globalization.DateTimeStyles.AssumeLocal);  
+
+Console.WriteLine("Year: {0}, Month: {1}, Day: {2}", dt3.Year, dt3.Month, dt3.Day, dt3.Hour  ,dt3.Minute);
+Console.WriteLine ("Now= " + dt2 );
+Console.WriteLine (v);
