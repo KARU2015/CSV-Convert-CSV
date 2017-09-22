@@ -1,0 +1,27 @@
+
+-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+Note
+
+-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+Begin with first file.
+this line we have 96 times.
+every 4 times in the hour 
+
+format ( date & time,double,string,int,int,int,string,double,double,int,int)
+
+2017-02-05 06:00;0.847;m3/h;387.9;-7.7;387.9;m3;0.000;0.000;97;1024
+2017-02-05 06:15;0.338;m3/h;388.0;-7.7;388.0;m3;0.000;0.000;97;1024
+2017-02-05 06:30;0.798;m3/h;388.2;-7.7;388.2;m3;0.000;0.000;97;1024
+2017-02-05 06:45;0.655;m3/h;388.4;-7.7;388.4;m3;0.000;0.000;97;1024
+
+
+convert to 
+
+
+OUTPUT file all double is from 1 hour to 24
+
+( date,Value1,labtory,NULL,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double)
+
+06.07.2017;1;L;;0,000;0,271;0,367;0,394;0,417;0,320;0,304;0,122;0,127;0,248;0,170;0,095;0,283;0,228;0,312;0,436;0,777;0,698;0,115;0,355;0,015;0,038;0,005;0,001
