@@ -1,7 +1,7 @@
 
 -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
 
-Note
+            CSV  CONVERT TO  CSV  ( OTHER FORMAT )
 
 -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
 
@@ -20,7 +20,7 @@ format ( date & time,double,string,int,int,int,string,double,double,int,int)
 convert to 
 
 
-OUTPUT file all double is from 1 hour to 24
+OUTPUT file all double is 1 hour to 24 form first double in first file
 
 ( date,Value1,labtory,NULL,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double,double)
 
